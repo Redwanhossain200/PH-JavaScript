@@ -5,4 +5,4 @@
 
 // const numbers = 123343546;
 
-const numbers = [12 , 22 , 54 , 65];
+const numbers = [12 , 22 , 54 , 65 , 56];
