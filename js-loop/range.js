@@ -4,8 +4,8 @@ while (num <= 10) { //focus on the condition
   num++;
 }
 
-let nums = 50;
-while (nums <= 100) {
-  console.log('You got', nums);
-  nums++;
+let price = 50;
+while (price <= 100) {
+  console.log('You got', price);
+  price++;
 }
