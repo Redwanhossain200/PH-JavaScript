@@ -3,7 +3,7 @@ let marks = 80;
 if (marks>=80) {
   console.log('You Got =', 'A+ 😊');
 } else if (marks>=70) {
-  console.log('You Got =', 'A'); 
+  console.log('You Got =', 'A 👌'); 
 } else if (marks>=60) {
   console.log('A-');  
 } else if (marks>=50) {
