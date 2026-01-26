@@ -1,10 +1,10 @@
-// let numbers = [12, 22, 34, 56, 94, 34, 60, 10];
+let numbers = [12, 22, 34, 56, 94, 34, 60, 10];
 
-// console.log(numbers);
+console.log(numbers);
 
-// for (const num of numbers) {
-//   console.log(num);
-// }
+for (const num of numbers) {
+  console.log(num);
+}
 
 
 
