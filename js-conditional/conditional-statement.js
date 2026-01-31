@@ -21,13 +21,13 @@
 
 
 
+/* 
+var biryaniPrice = 250;
 
-// var biriyaniPrice = 250;
-
-// if (biriyaniPrice < 300) {
-//   console.log('give me some biriyani');
-// }
-
+if (biryaniPrice < 300) {
+  console.log('give me some biryani');
+}
+ */
 
 
 // if(condition){
