@@ -8,7 +8,7 @@ if (disha > salman) {
 }
 
 // inside a function
-function getMax(num1 , num2) {
+function getMax(num1, num2) {
   if (num1 > num2) {
     return num1;
   } else {
