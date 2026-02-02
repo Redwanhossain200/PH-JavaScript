@@ -10,5 +10,5 @@ if (jim > tim && jim > kim) {
   console.log('Kim is the ultimate boss');
 }
 
-const max = Math.max(12, 1, 56, 5, 56, 78, 83, 18);
+const max = Math.max(12, 11, 56, 35, 56, 78, 83, 18);
 console.log('max issuing Math.max', max);
