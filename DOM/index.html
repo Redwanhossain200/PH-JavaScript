@@ -15,8 +15,11 @@
   </header>
 
   <main>
-    <section>
+    <section id="old-dhaka" class="songs">
       <h1>I am learning javascript DOM(Document Object Model)</h1>
+      <p>Lorem ipsum dolor sit amet <span>oli goli</span> consectetur <span>adipisicing elit</span>. Ullam, suscipit.
+      </p>
+      <h1>lakflklk sfjjfo <span>some text</span> </h1>
       <ul>
         <li>Redwan Hossain</li>
         <li>Dom</li>
@@ -25,7 +28,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="foods">
       <h1 id="food-title">Foods I love</h1>
       <ul>
         <li>Rice</li>
@@ -66,15 +69,21 @@
 
     // get by ID 
     const foodTitleH1 = document.getElementById('food-title');
-    console.log(foodTitleH1.innerText);
-    console.log(foodTitleH1.innerText = 'food makes me healthy');
+    // console.log(foodTitleH1.innerText);
+    // console.log(foodTitleH1.innerText = 'food makes me healthy');
 
     // Get element by class name
     const foriegnFood = document.getElementsByClassName('foriegn');
-    console.log(foriegnFood.innerText);
+    // console.log(foriegnFood.innerText);
 
     for (const element of foriegnFood) {
       console.log(element.innerText);
+    }
+
+    // query selector all 
+    const spanElements = document.querySelectorAll('#old-dhaka p span');
+    for (const span of spanElements) {
+      console.log(span.innerText);
     }
 
   </script>

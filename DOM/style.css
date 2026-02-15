@@ -7,6 +7,9 @@ li {
   color: goldenrod;
 }
 
+.foods,
 .foriegn {
-  color: aqua;
+  color: grey;
+  font-weight: 700;
+  font-style: italic;
 }
