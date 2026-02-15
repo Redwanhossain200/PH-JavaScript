@@ -13,3 +13,15 @@ li {
   font-weight: 700;
   font-style: italic;
 }
+
+.bold {
+  font-weight: 100;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.big {
+  font-size: 3em;
+}
