@@ -15,13 +15,28 @@
   </header>
 
   <main>
-    <h2>I am learning javascript DOM(Document Object Model)</h2>
-    <ul>
-      <li>Redwan Hossain</li>
-      <li>Dom</li>
-      <li>document</li>
-      <li>shafayat</li>
-    </ul>
+    <section>
+      <h1>I am learning javascript DOM(Document Object Model)</h1>
+      <ul>
+        <li>Redwan Hossain</li>
+        <li>Dom</li>
+        <li>document</li>
+        <li>shafayat</li>
+      </ul>
+    </section>
+
+    <section>
+      <h1 id="food-title">Foods I love</h1>
+      <ul>
+        <li>Rice</li>
+        <li>Potato</li>
+        <li>Fish</li>
+        <li class="foriegn">Meat</li>
+        <li class="foriegn">biriyani</li>
+        <li class="foriegn">burger</li>
+        <li>pizza</li>
+      </ul>
+    </section>
   </main>
 
   <script>
@@ -31,26 +46,40 @@
       name: 'abul mia',
       id: 123,
       study: function (subject) {
-        console.log('studying subject:', subject);
+        // console.log('studying subject:', subject);
       }
     }
 
 
     // document.getElementsByTagName
     const liCollection = document.getElementsByTagName('li');
-    console.log(liCollection);
+    // console.log(liCollection);
     for (const li of liCollection) {
-      console.log(li.innerText);
+      // console.log(li.innerText);
     }
 
     // All h1 Tags 
     const allHeading = document.getElementsByTagName('h1');
     for (const heading of allHeading) {
-      console.log(heading.innerText);
+      // console.log(heading.innerText);
     }
+
+    // get by ID 
+    const foodTitleH1 = document.getElementById('food-title');
+    console.log(foodTitleH1.innerText);
+    console.log(foodTitleH1.innerText = 'food makes me healthy');
+
+    // Get element by class name
+    const foriegnFood = document.getElementsByClassName('foriegn');
+    console.log(foriegnFood.innerText);
+
+    for (const element of foriegnFood) {
+      console.log(element.innerText);
+    }
+
   </script>
 
-  <!-- <script src="./hello.js"></script> -->
 </body>
+<!-- <script src="./hello.js"></script> -->
 
 </html>
