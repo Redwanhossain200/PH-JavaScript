@@ -15,5 +15,8 @@
 const price = 5555;
 // const name = 'Samsung';
 // const product = { name: 'Iphone', price: '799', brand: 'Apple' };
-const { name, price: phonePrice, camera = '12 MP' } = { name: 'Iphone', price: '799', brand: 'Apple' };
-console.log(camera);
+const { name, price: phonePrice, camera = '12 MP' } = { name: 'Iphone', price: '799', brand: 'Apple', camera: '48 MP' };
+// console.log(camera);
+
+const [first, second] = [10, 20, 30, 40];
+console.log(first, second);
