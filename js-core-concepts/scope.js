@@ -1,7 +1,7 @@
 let pi = 3.14;
-add(2,5);
+add(2, 5);
 
-function add (a, b) {
+function add(a, b) {
     const factor = 0.5;
     const result = (a + b) * factor + pi;
     const total = doubleIt(result);
@@ -32,11 +32,11 @@ const multiply = (a, b) => {
 }
 multiply(2, 5);
 
-if(true) {
+if (true) {
 
 }
 
-while(true) {
+while (true) {
 
 }
 

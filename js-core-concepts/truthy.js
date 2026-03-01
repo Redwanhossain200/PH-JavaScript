@@ -9,18 +9,18 @@ data = null;
 data = undefined;
 data = {};
 data = [];
-if(data) {
+if (data) {
     console.log('Truthy');
 } else {
     console.log('Falsy');
 }
 
 let price = false;
-if(!price) {
+if (!price) {
     console.log('Price is Falsy');
 }
 
 let value = 0;
-if(!!value) {
+if (!!value) {
     console.log('Truthy');
 }
