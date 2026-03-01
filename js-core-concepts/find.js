@@ -1,7 +1,7 @@
 const students = [
     { name: 'Tormuj', age: 22 },
     { name: 'Zaved', age: 31 },
-    { name: 'Naved', age: 23 }, 
+    { name: 'Naved', age: 23 },
     { name: 'Khaled', age: 20 },
     { name: 'Sajed', age: 34 },
     { name: 'Nahid', age: 22 },

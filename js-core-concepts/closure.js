@@ -9,7 +9,7 @@ const result = outerFunction();
 // result();
 // console.log( 'in the outside', result);
 
-function counter(owner){
+function counter(owner) {
     let count = 0;
     function increment() {
         count = count + 1;

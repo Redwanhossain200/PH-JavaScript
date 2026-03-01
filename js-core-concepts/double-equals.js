@@ -1,7 +1,7 @@
 // double equals does type coercion.
 // 
-console.log(2==2);
-console.log(2=='2'); // converts the string '2' to number 2 and then compares. returns true.
+console.log(2 == 2);
+console.log(2 == '2'); // converts the string '2' to number 2 and then compares. returns true.
 console.log(1 == true);
 // true is converted to 1 and then compared. returns true.
 console.log(0 == false);
